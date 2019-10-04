@@ -1,0 +1,11 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nonocast/hello-gitbook.git",
+  "author": "Hui Cao <nonocast@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "gitbook build && git subtree push --prefix=_book origin gh-pages"
+  }
+}
